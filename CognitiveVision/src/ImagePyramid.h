@@ -16,9 +16,11 @@
 
 class ImagePyramid {
 public:
-	ImagePyramid(cv::Mat& image, int number_of_layers);
+	ImagePyramid(cv::Mat& image, int number_of_layers, float sigma);
+	ImagePyramid(ImagePyramid& pyramid, float sigma);
 	virtual ~ImagePyramid();
 	cv::Mat get(int layer);
+	int numOfLayers();
 
 private:
 	std::vector<cv::Mat> layers_;

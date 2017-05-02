@@ -7,7 +7,7 @@ link_directories(${CMAKE_SOURCE_DIR}/../install/lib)
 set(SOURCE
    ${SOURCE}
    ${CMAKE_CURRENT_SOURCE_DIR}/ImagePyramid.cpp
-   ${CMAKE_CURRENT_SOURCE_DIR}/Exercise3_Pyr.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/Exercise4.cpp
 )
 set(HEADERS
    ${HEADERS}
