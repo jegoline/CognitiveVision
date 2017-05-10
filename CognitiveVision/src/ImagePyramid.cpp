@@ -29,11 +29,11 @@ ImagePyramid::ImagePyramid(ImagePyramid& pyramid, float sigma) {
 	}
 }
 
-int ImagePyramid::numOfLayers() {
+int ImagePyramid::numOfLayers() const {
 	return layers_.size();
 }
 
-cv::Mat ImagePyramid::get(int layer) {
+cv::Mat ImagePyramid::get(int layer) const {
 	return layers_[layer];
 }
 

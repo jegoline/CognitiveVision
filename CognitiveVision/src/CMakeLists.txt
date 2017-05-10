@@ -7,11 +7,15 @@ link_directories(${CMAKE_SOURCE_DIR}/../install/lib)
 set(SOURCE
    ${SOURCE}
    ${CMAKE_CURRENT_SOURCE_DIR}/ImagePyramid.cpp
-   ${CMAKE_CURRENT_SOURCE_DIR}/Exercise4.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/LaplacianPyramid.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/OrientedPyramid.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/Exercise5.cpp
 )
 set(HEADERS
    ${HEADERS}
    ${CMAKE_CURRENT_SOURCE_DIR}/ImagePyramid.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/LaplacianPyramid.h
+   ${CMAKE_CURRENT_SOURCE_DIR}/OrientedPyramid.h
 )
 
 find_package( OpenCV REQUIRED )

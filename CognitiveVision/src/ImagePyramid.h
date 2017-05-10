@@ -19,8 +19,9 @@ public:
 	ImagePyramid(cv::Mat& image, int number_of_layers, float sigma);
 	ImagePyramid(ImagePyramid& pyramid, float sigma);
 	virtual ~ImagePyramid();
-	cv::Mat get(int layer);
-	int numOfLayers();
+
+	cv::Mat get(int layer) const;
+	int numOfLayers() const;
 
 private:
 	std::vector<cv::Mat> layers_;
