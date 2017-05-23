@@ -9,7 +9,7 @@ set(SOURCE
    ${CMAKE_CURRENT_SOURCE_DIR}/ImagePyramid.cpp
    ${CMAKE_CURRENT_SOURCE_DIR}/LaplacianPyramid.cpp
    ${CMAKE_CURRENT_SOURCE_DIR}/OrientedPyramid.cpp
-   ${CMAKE_CURRENT_SOURCE_DIR}/Exercise5.cpp
+   ${CMAKE_CURRENT_SOURCE_DIR}/Exercise6.cpp
 )
 set(HEADERS
    ${HEADERS}

@@ -11,7 +11,7 @@
 #include <opencv2/core/mat.hpp>
 #include <vector>
 
-class LaplacianPyramid;
+#include "LaplacianPyramid.h"
 
 class OrientedPyramid {
 public:
